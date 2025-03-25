@@ -5,12 +5,8 @@
 	"name": "EpicKnightsVillagers",
 	"description": "Guard Villagers but Epic!",
 	"authors": [
-		"Me!"
+		"KevzCz"
 	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
 	"license": "GNU GPLv3",
 	"icon": "assets/epicknightsvillagers/icon.png",
 	"environment": "*",
@@ -19,7 +15,11 @@
 			"net.pixeldreamstudios.epicknightsvillagers.EpicKnightsVillagers"
 		]
 	},
-
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/knightllagers",
+		"sources": "https://github.com/KevzCz/Knightllagers",
+		"issues": "https://github.com/KevzCz/Knightllagers/issues"
+	},
 	"depends": {
 		"fabricloader": ">=0.16.10",
 		"minecraft": "~1.21.1",
