@@ -64,10 +64,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "magistuarmory:iron_flamebladedsword"
-        },
-        {
-          "type": "minecraft:item",
           "name": "magistuarmory:iron_lochaberaxe"
         },
         {
