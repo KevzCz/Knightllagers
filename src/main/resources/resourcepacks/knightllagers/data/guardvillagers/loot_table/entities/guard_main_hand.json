@@ -6,93 +6,140 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:crossbow"
+          "name": "minecraft:iron_sword",
+          "weight": 10
         },
         {
-          "type": "minecraft:item",
-          "name": "magistuarmory:heavy_crossbow",
-          "conditions": [
+          "type": "minecraft:group",
+          "children": [
             {
-              "condition": "minecraft:random_chance",
-              "chance": 0.3
+              "type": "minecraft:item",
+              "name": "minecraft:bow"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:crossbow"
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "wizards:wand_frost"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "wizards:wand_arcane"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "wizards:wand_fire"
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "wizards:wand_netherite_frost"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "wizards:wand_netherite_arcane"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "wizards:wand_netherite_fire"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:group",
+          "weight": 4,
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_stylet"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_shortsword"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_katzbalger"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_pike"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_ranseur"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_ahlspiess"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_chivalrylance"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_bastardsword"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_estoc"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_claymore"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_zweihander"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_lochaberaxe"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_concavehalberd"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_heavymace"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_heavywarhammer"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_lucernhammer"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_morgenstern"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_chainmorgenstern"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "magistuarmory:iron_guisarme"
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_stylet"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_shortsword"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_katzbalger"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_pike"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_ranseur"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_ahlspiess"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_chivalrylance"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_bastardsword"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_estoc"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_claymore"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_zweihander"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_lochaberaxe"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_concavehalberd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_heavymace"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_heavywarhammer"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_lucernhammer"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_morgenstern"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_chainmorgenstern"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "magistuarmory:iron_guisarme"
         }
       ]
     }
