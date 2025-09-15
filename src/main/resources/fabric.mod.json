@@ -26,6 +26,6 @@
 		"java": ">=21",
 		"fabric-api": "*",
 		"magistuarmory" :"*",
-		"guardvillagers" :"*"
+		"guardvillagers" :">=1.1.0"
 	}
 }
