@@ -1,5 +1,5 @@
 {
-  "type": "guardvillagers:slot",
+  "type": "minecraft:generic",
   "pools": [
     {
       "rolls": 1,
@@ -19,65 +19,92 @@
           "weight": 15
         },
         {
-          "type": "minecraft:group",
-          "children": [
-            {
-              "type": "minecraft:item",
-              "name": "wizards:wand_frost"
-            },
-            {
-              "type": "minecraft:item",
-              "name": "wizards:wand_arcane"
-            },
-            {
-              "type": "minecraft:item",
-              "name": "wizards:wand_fire"
-            }
+          "type": "guardvillagers:optional_one_of",
+          "items": [
+            "wizards:wand_frost",
+            "wizards:wand_arcane",
+            "wizards:wand_fire"
           ],
           "weight": 10
         },
         {
-          "type": "minecraft:group",
-          "children": [
-            {
-              "type": "minecraft:item",
-              "name": "wizards:wand_netherite_frost"
-            },
-            {
-              "type": "minecraft:item",
-              "name": "wizards:wand_netherite_arcane"
-            },
-            {
-              "type": "minecraft:item",
-              "name": "wizards:wand_netherite_fire"
-            }
+          "type": "guardvillagers:optional_one_of",
+          "items": [
+            "magistuarmory:iron_stylet",
+            "magistuarmory:iron_shortsword",
+            "magistuarmory:iron_katzbalger",
+            "magistuarmory:iron_pike",
+            "magistuarmory:iron_ranseur",
+            "magistuarmory:iron_ahlspiess",
+            "magistuarmory:iron_chivalrylance",
+            "magistuarmory:iron_bastardsword",
+            "magistuarmory:iron_estoc",
+            "magistuarmory:iron_claymore",
+            "magistuarmory:iron_zweihander",
+            "magistuarmory:iron_lochaberaxe",
+            "magistuarmory:iron_concavehalberd",
+            "magistuarmory:iron_heavymace",
+            "magistuarmory:iron_heavywarhammer",
+            "magistuarmory:iron_lucernhammer",
+            "magistuarmory:iron_morgenstern",
+            "magistuarmory:iron_chainmorgenstern",
+            "magistuarmory:iron_guisarme"
           ],
-          "weight": 2
+          "weight": 20
         },
         {
-          "type": "minecraft:group",
-          "weight": 20,
-          "children": [
-            { "type": "minecraft:item", "name": "magistuarmory:iron_stylet" },
-            { "type": "minecraft:item", "name": "magistuarmory:iron_shortsword" },
-            { "type": "minecraft:item", "name": "magistuarmory:iron_katzbalger" },
-            { "type": "minecraft:item", "name": "magistuarmory:iron_pike" },
-            { "type": "minecraft:item", "name": "magistuarmory:iron_ranseur" },
-            { "type": "minecraft:item", "name": "magistuarmory:iron_ahlspiess" },
-            { "type": "minecraft:item", "name": "magistuarmory:iron_chivalrylance" },
-            { "type": "minecraft:item", "name": "magistuarmory:iron_bastardsword" },
-            { "type": "minecraft:item", "name": "magistuarmory:iron_estoc" },
-            { "type": "minecraft:item", "name": "magistuarmory:iron_claymore" },
-            { "type": "minecraft:item", "name": "magistuarmory:iron_zweihander" },
-            { "type": "minecraft:item", "name": "magistuarmory:iron_lochaberaxe" },
-            { "type": "minecraft:item", "name": "magistuarmory:iron_concavehalberd" },
-            { "type": "minecraft:item", "name": "magistuarmory:iron_heavymace" },
-            { "type": "minecraft:item", "name": "magistuarmory:iron_heavywarhammer" },
-            { "type": "minecraft:item", "name": "magistuarmory:iron_lucernhammer" },
-            { "type": "minecraft:item", "name": "magistuarmory:iron_morgenstern" },
-            { "type": "minecraft:item", "name": "magistuarmory:iron_chainmorgenstern" },
-            { "type": "minecraft:item", "name": "magistuarmory:iron_guisarme" }
-          ]
+          "type": "guardvillagers:optional_item",
+          "name": "paladins:holy_wand",
+          "required": false,
+          "weight": 10
+        },
+        {
+          "type": "guardvillagers:optional_item",
+          "name": "paladins:iron_great_hammer",
+          "required": false,
+          "weight": 10
+        },
+        {
+          "type": "guardvillagers:optional_one_of",
+          "items": [
+            "rogues:iron_dagger",
+            "rogues:iron_sickle"
+          ],
+          "weight": 10
+        },
+        {
+          "type": "guardvillagers:optional_one_of",
+          "items": [
+            "rogues:iron_double_axe",
+            "rogues:iron_glaive"
+          ],
+          "weight": 10
+        },
+        {
+          "type": "guardvillagers:optional_one_of",
+          "items": [
+            "elemental_wizards_rpg:wand_aqua",
+            "elemental_wizards_rpg:wand_terra",
+            "elemental_wizards_rpg:wand_wind"
+          ],
+          "weight": 10
+        },
+        {
+          "type": "guardvillagers:optional_one_of",
+          "items": [
+            "bards_rpg:wooden_lute",
+            "bards_rpg:golden_lyre"
+          ],
+          "weight": 10
+        },
+        {
+          "type": "guardvillagers:optional_one_of",
+          "items": [
+            "spellbladenext:frost_blade",
+            "spellbladenext:fire_blade",
+            "spellbladenext:arcane_blade"
+          ],
+          "weight": 10
         }
       ]
     }
