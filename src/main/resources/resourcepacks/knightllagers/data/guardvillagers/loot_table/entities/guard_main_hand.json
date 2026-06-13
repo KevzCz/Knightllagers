@@ -55,13 +55,11 @@
         {
           "type": "guardvillagers:optional_item",
           "name": "paladins:holy_wand",
-          "required": false,
           "weight": 10
         },
         {
           "type": "guardvillagers:optional_item",
           "name": "paladins:iron_great_hammer",
-          "required": false,
           "weight": 10
         },
         {
@@ -104,6 +102,39 @@
             "spellbladenext:fire_blade",
             "spellbladenext:arcane_blade"
           ],
+          "weight": 10
+        },
+        {
+          "type": "guardvillagers:optional_item",
+          "name": "forcemaster_rpg:iron_knuckle",
+          "weight": 10
+        },
+        {
+          "type": "guardvillagers:optional_item",
+          "name": "berserker_rpg:iron_berserker_axe",
+          "weight": 10
+        },
+        {
+          "type": "guardvillagers:optional_item",
+          "name": "bards_rpg:iron_rapier",
+          "weight": 10
+        },
+        {
+          "type": "guardvillagers:optional_one_of",
+          "items": [
+            "oathswornpaladins:iron_longsword",
+            "oathswornpaladins:iron_forge_mace"
+          ],
+          "weight": 10
+        },
+        {
+          "type": "guardvillagers:optional_item",
+          "name": "druids:wand_nature",
+          "weight": 10
+        },
+        {
+          "type": "guardvillagers:optional_item",
+          "name": "archers:iron_spear",
           "weight": 10
         }
       ]
