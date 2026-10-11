@@ -55,7 +55,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "magistuarmory:jousting_leg",
+          "name": "magistuarmory:jousting_leggings",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
